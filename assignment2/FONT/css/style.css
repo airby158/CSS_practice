@@ -1,27 +1,37 @@
+@font-face {
+  font-family: unbound;
+  src: url("../fonts/Unbounded-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: notosans;
+  src: url("../fonts/NotoSansSymbols2-Regular.ttf");
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: unbound, notosans;
   background-color: lightblue;
   text-align: center;
 }
 
 header h1 {
-  font-family: "Great Vibes", cursive;
+  font-family: unbound, cursive;
   font-size: 3em;
 }
 
 header h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: notosans, sans-serif;
   font-size: 1.5em;
 }
 
 section h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: notosans, sans-serif;
   font-size: 2em;
   font-style: italic;
 }
 
 section p {
-  font-family: "Great Vibes", cursive;
+  font-family: unbound, cursive;
   font-size: 1.5em;
   font-weight: bold;
 }
